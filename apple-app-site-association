@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "RX9SG4239U.com.equaleyes.BioEnergyUnit",
+        "paths": ["/reset/*"]
+      }
+    ]
+  }
+}
