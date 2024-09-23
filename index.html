@@ -16,8 +16,14 @@
         .pdf-container {
             width: 100%; /* Use percentage for responsiveness */
             max-width: 1200px; /* Max width for larger screens */
-            overflow: hidden; /* Prevent overflow */
+            height: 100%; /* Full height */
+            overflow: auto; /* Allow scrolling */
             position: relative; /* For positioning the embed */
+        }
+        iframe {
+            width: 100%; /* Full width for iframe */
+            height: 100%; /* Full height for iframe */
+            border: none; /* Remove border */
         }
     </style>
     
