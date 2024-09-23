@@ -9,7 +9,7 @@
         html, body {
             height: 100%;
             margin: 0;
-            overflow: hidden; /* Prevent any scrolling on body */
+            overflow: hidden; /* Prevent body scrolling */
         }
         .pdf-container {
             width: 100vw; /* Full width of the viewport */
@@ -19,10 +19,14 @@
             align-items: center;
         }
         iframe {
-            width: 100vw; /* Set to viewport width */
-            height: 100vh; /* Set to viewport height */
+            width: 100%; /* Full width for iframe */
+            height: 100%; /* Full height for iframe */
             border: none; /* Remove border */
-            overflow: auto; /* Allow scrolling for iframe */
+            min-width: 100%; /* Ensure no horizontal scrolling */
+            min-height: 100%; /* Ensure no vertical scrolling */
+            overflow: hidden; /* Prevent scrolling inside iframe */
+            transform: scale(1); /* Scale to fit without overflow */
+            transform-origin: 0 0; /* Set origin for scaling */
         }
     </style>
     
