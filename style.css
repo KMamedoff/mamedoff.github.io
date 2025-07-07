@@ -1,16 +1,29 @@
-html, body {
+html {
     margin: 0;
     padding: 0;
-    background-color: #e8e8e8;
+    color-scheme: dark;
+    forced-color-adjust: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #e8e8e8;
+    color: #e0e0e0;
 }
 
 #canva-iframe {
-    display: block;
-    width: 90%;
-    max-width: 1200px;
-    margin: 2vh auto;
-    aspect-ratio: 1 / 1.414;
-    border: none;
-    border-radius: 16px;
-    box-shadow: 0 4px 12px 0 rgba(81, 81, 81, 0.5);
+    all: initial !important;
+    display: block !important;
+    width: 90% !important;
+    max-width: 1200px !important;
+    margin: 2vh auto !important;
+    aspect-ratio: 1 / 1.414 !important;
+    border: none !important;
+    border-radius: 16px !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.7) !important;
+    background: transparent !important;
+    filter: none !important;
+    forced-color-adjust: none !important;
+    print-color-adjust: exact !important;
 }
